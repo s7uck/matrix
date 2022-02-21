@@ -10,7 +10,7 @@
 matrix is now online! You can run matrix on any computer **without downloading or
 installing matrix** by running this command in PowerShell:
 ```powershell
-iwr https://rentry.co/runmatrix/raw | iex
+iwr rentry.co/runmatrix/raw | iex
 ```
 
 ## Settings
