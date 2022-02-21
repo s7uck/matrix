@@ -1,4 +1,4 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg">
 	<div xmlns="http://www.w3.org/1999/xhtml">
 		<script type="text/javascript">
 			document.getElementById('demo').innerHTML = Math.floor(Math.random() * 2)
@@ -10,7 +10,7 @@
 				src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono%20Windows%20Compatible.ttf');
 			}
 			
-			code.matrix {
+			.matrix {
   			position: relative;
 
 				width: max-content;
@@ -19,8 +19,8 @@
 				font-size: clamp(1rem, 3vw + 1rem, 4rem);
 			}
 			
-			code.matrix::before,
-			code.matrix::after {
+			.matrix::before,
+			.matrix::after {
 				  content: '';
 			
 					position: absolute;
@@ -30,7 +30,7 @@
 					left: 0;
 			}
 			
-			code.matrix::before {
+			.matrix::before {
 				  background: #0D1117;
 			
 					animation: teletype 1s steps(100) 1s forwards;
@@ -43,8 +43,8 @@
 			}
 		</style>
 		
-		<code id='demo' class="matrix">
+		<text id='demo' class="matrix">
 			01 01010001 010010100010 010001
-		</code>
+		</text>
 	</div>
 </svg>
