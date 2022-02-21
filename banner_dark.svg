@@ -38,9 +38,11 @@
 				}
 			}
 		</style>
-		
+	</div>
+	
+	<canvas>
 		<text id='demo' class="matrix">
 			01 01010001 010010100010 010001
 		</text>
-	</div>
+	</canvas>
 </svg>
