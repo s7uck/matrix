@@ -1,5 +1,4 @@
-param($colors = ("Green", "Red", "Yellow"), $length = 104000)
-$mode = $args[0]
+param($salt = (" ", "0", "1"), $colors = ("Green", "Red", "Yellow"), $length = 104000)
 
 function Write-RandomDigit($salt = $salt, $colors = $colors) {
 	Write-Host (Get-Random $salt) -NoNewLine -ForegroundColor (Get-Random $colors)
