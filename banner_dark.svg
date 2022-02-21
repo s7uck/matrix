@@ -12,7 +12,7 @@
 				width: max-content;
 			
   			font-family: 'JetBrains Mono NF';
-				font-size: clamp(1rem, 3vw + 1rem, 4rem);
+				font-size: 50%;
 			}
 			
 			.matrix::before,
