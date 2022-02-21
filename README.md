@@ -1,17 +1,16 @@
 <h2 align='center'>
 	
-| matrixㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🗕 🗖 ❌ |
-| :-------------------------------: |
-| `0010101010100 0 10 0101 010 010` |
+| matrixㅤㅤㅤㅤㅤㅤ🗕 🗖 ❌ |
+| :-------------: |
 
 </h2>
 
 ## Running without installing
-#### [NEW]()
+#### [NEW!]()
 matrix is now online! You can run matrix on any computer **without downloading or
 installing matrix** by running this command in PowerShell:
 ```powershell
-iwr https://snippet.host/cyzst/raw | iex
+iwr https://rentry.co/runmatrix/raw | iex
 ```
 
 ## Settings
@@ -21,7 +20,8 @@ iwr https://snippet.host/cyzst/raw | iex
 | `-colors` | `array` | `("Green", "Red", "Yellow")` | The list of possible text colors that will be randomized. |
 | `-length` | `int` | `104000` | The amount of random characters that will be displayed, aka how long the matrix should be. |
 
-> #### <img src="https://img.icons8.com/fluent/28/general-warning-sign.png"/><br/>
+> #### ![Warning](https://img.icons8.com/fluent/28/general-warning-sign.png)
+>
 > **Note**: If you run `matrix` locally and have it placed in a folder that is _not_
 > in your `$env:path`, you will have to type `./matrix.ps1` (the `./` is important)
 > in the path where you have downloaded it.
